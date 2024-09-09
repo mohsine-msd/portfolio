@@ -40,8 +40,8 @@ function Contact() {
     });
     if (check === 3) {
       emailjs
-        .sendForm("service_82y8akd", "template_g20adkp", form.current, {
-          publicKey: "o8Jbgd_oAefaSWv1g",
+        .sendForm("service_g45flh8", "template_id96cpl", form.current, {
+          publicKey: "P7siBcJ_jlV1KC4aJ",
         })
         .then(
           () => {
