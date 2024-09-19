@@ -1,13 +1,16 @@
 import React from "react";
 import bookimg from "../assets/Books-mala_2.avif";
 import affimg from "../assets/Affiliate-Marketing-101.png.webp";
+import cap from "../assets/Capture d'écran 2024-09-19 152502.png";
 
 function Projects() {
   return (
     <>
-    <h1 className="text-white text-4xl md:text-5xl lg:text-5xl font-light text-center mt-20">Projects</h1>
-       <div className="mx-auto w-full  md:w-[70%] h-auto mt-9 grid gap-11 grid-cols-1 md:grid-cols-3 items-center">
-       <div className=" col-span-1 ms-10 md:ms-0">
+      <h1 className="text-white text-4xl md:text-5xl lg:text-5xl font-light text-center mt-20">
+        Projects
+      </h1>
+      <div className="mx-auto w-full  md:w-[70%] h-auto mt-9 grid gap-11 grid-cols-1 md:grid-cols-3 items-center">
+        <div className=" col-span-1 ms-10 md:ms-0">
           <img
             src={bookimg}
             alt=""
@@ -40,11 +43,7 @@ function Projects() {
       </div>
       <div className="mx-auto w-full  md:w-[70%] h-auto mt-20 grid gap-11 grid-cols-1 md:grid-cols-3 items-center">
         <div className=" col-span-1 ms-10 md:ms-0">
-          <img
-            src={affimg}
-            alt=""
-            className="rounded-lg  w-full "
-          />
+          <img src={affimg} alt="" className="rounded-lg  w-full " />
         </div>
         <div className=" col-span-2 flex flex-col gap-2 ml-11">
           <h1 className="text-white  text-3xl">Affiliate website</h1>
@@ -60,6 +59,31 @@ function Projects() {
           <p className="flex gap-3">
             <span className="bg-purple-900  font-bold text-slate-300 rounded p-1 text-center pt-2">
               Laravel
+            </span>
+            <span className="bg-purple-900  font-bold text-slate-300 rounded p-1 text-center pt-2">
+              tailwindcss
+            </span>
+          </p>
+        </div>
+      </div>
+      <div className="mx-auto w-full  md:w-[70%] h-auto mt-20 grid gap-11 grid-cols-1 md:grid-cols-3 items-center">
+        <div className=" col-span-1 ms-10 md:ms-0">
+          <img src={cap} alt="" className="rounded-lg  w-full " />
+        </div>
+        <div className=" col-span-2 flex flex-col gap-2 ml-11">
+          <h1 className="text-white  text-3xl">School Website</h1>
+          <p className="text-white  w-[90%] md:w-4/5">
+            Ce site web est conçu pour présenter notre école et mettre en avant
+            ses valeurs et ses programmes éducatifs. Il vous permet de découvrir
+            ce que notre établissement a à offrir, que ce soit en termes
+            d'enseignement, d'infrastructures ou d'activités extrascolaires. En
+            explorant notre site, vous en apprendrez plus sur notre mission, nos
+            objectifs, et comment nous préparons nos élèves à réussir dans leurs
+            études et au-delà. <a href="https://mohsine-msd.github.io/school/" target="_blank" className="font-bold">lien du site-web</a>
+          </p>
+          <p className="flex gap-3">
+            <span className="bg-purple-900  font-bold text-slate-300 rounded p-1 text-center pt-2">
+              Reactjs
             </span>
             <span className="bg-purple-900  font-bold text-slate-300 rounded p-1 text-center pt-2">
               tailwindcss
